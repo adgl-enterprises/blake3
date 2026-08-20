@@ -3,7 +3,6 @@
 
 use crate::{BLOCK_LEN, CHUNK_LEN, OUT_LEN};
 use arrayvec::ArrayVec;
-use core::usize;
 use rand::prelude::*;
 
 const CHUNK_START: u8 = 1 << 0;
